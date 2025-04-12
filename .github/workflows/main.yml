@@ -12,7 +12,7 @@ jobs:
     - name: Build Java Package
       run: mvn clean install -f Javarepo1/pom.xml
     - name: SonarCloud Scan
-      run: mvn sonar:sonar -f Javarepo1/pom.xml  -Dsonar.projectKey=javaauto -Dsonar.organization=Chetan V. Shah -Dsonar.branch.name=main -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=5442db64afaa6c3506bee4991960e780a4ab7403
+      run: mvn sonar:sonar -f Javarepo1/pom.xml  -Dsonar.projectKey=chetanvshah30_java -Dsonar.organization=chetanvshah30  -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=5442db64afaa6c3506bee4991960e780a4ab7403
 
 
 
